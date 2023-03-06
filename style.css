@@ -84,7 +84,7 @@ body {
   #header h2 {
     font-size: 24px;
     margin-top: 20px;
-    color: #797E82;
+    color: #3B3C3E;
   }
   
   #header h2 span {
@@ -180,12 +180,12 @@ body {
       font-size: 26px;
     }
   }
-  /*--------------------------------------------------------------
+  
+/*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
-/**
-* Desktop Navigation 
-*/
+/* Desktop Navigation */
+
 .navbar {
     padding: 0;
     margin-top: 35px;
