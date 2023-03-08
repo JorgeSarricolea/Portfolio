@@ -148,7 +148,7 @@ body {
 
   #header.header-top {
     height: 80px;
-    position: fixed;
+    position: center;
     left: 0;
     top: 0;
     right: 0;
@@ -448,8 +448,56 @@ section .container {
   line-height: 0;
 }
 
-.about-me .content p:last-child {
-  margin-bottom: 0;
+/*--------------------------------------------------------------
+# Skills
+--------------------------------------------------------------*/
+.skills {
+  margin-top: 20px;
+}
+
+.skill i {
+  padding-right: 10px;
+  font-size: 20px;
+}
+
+.skills h3 {
+  color: #3B3C3E;
+  font-weight: bold;
+}
+
+.skills .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+
+.skills .progress .skill {
+  padding: 10px 0;
+  margin: 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #3B3C3E;
+  font-size: 15px;
+
+}
+
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+
+.skills .progress-bar-wrap {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.skills .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: #591D29;
 }
 
   
